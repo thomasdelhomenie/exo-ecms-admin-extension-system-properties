@@ -1,0 +1,21 @@
+<div class="UISystemPropertiesFilterForm">
+  <div class="UIBarStyle">
+    <div class="BarStyle2">
+      <div class="LeftBar">
+        <div class="RightBar">
+          <div class="MiddleBar">
+	        <%uiform.begin()%>
+				  <% uiform.getChildren().each( { 
+				  		println "<div style=\"width: 100%; text-align: right;\">"
+				  		println _ctx.appRes("UIECMAdminControlPanel.UISystemProperties."+it.getName()) + " : "
+				  		println uiform.renderField(it)
+				  		println "</div>"
+				  } ) %>
+  			<%uiform.end()%>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+          

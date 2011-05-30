@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bundle>
+	<UIECMAdminControlPanel>
+		<tab>
+			<label>
+				<Monitoring>Monitoring</Monitoring>
+			</label>
+		</tab>
+		<label>
+			<SystemProperties>System Properties</SystemProperties>
+			<UISystemPropertiesPanel>System Properties</UISystemPropertiesPanel>
+		</label>
+		<UISystemProperties>
+			<label>System Properties</label>
+			<rowsPerPage>Rows</rowsPerPage>
+		</UISystemProperties>
+	</UIECMAdminControlPanel>
+	<UISystemPropertiesPanel>
+		<header>
+			<name>Name</name>
+			<value>Value</value>
+		</header>
+	</UISystemPropertiesPanel>
+</bundle>
